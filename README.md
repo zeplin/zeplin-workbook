@@ -29,9 +29,9 @@ Let us know your feedback, we ❤️to [hear it]("mailto:support@zeplin.io").
 |   Role     |  Contact ⚠️#TODO |
 | ------------------- |:---------------------------|
 | Zeplin Admin      | _todo@domain.com_    |
-| Design Contact    |                      |
-| Development Contact |                    |
-| Web Contact           |                  |
+| Design Contact    | _todo@domain.com_                     |
+| Development Contact | _todo@domain.com_                   |
+| Web Contact           | _todo@domain.com_                 |
 
 
 ## Getting Access to Zeplin
@@ -74,9 +74,9 @@ _ex.
 _ex. Some teams color code thumbnails like this; for iOS, Web, Android_
 ![zeplin](./img/project-naming.png)
 
-### Project Naming Convention ⚠️#TODO
+### Project Naming Convention 
 
-|   Type     | Content | Example
+|   Type     | Content ⚠️#TODO | Example ⚠️#TODO
 | ------------------- |:-------------|:-------------|
 | Naming Convention    |   _[Team/brand name] - [platform] - [feature]_ |    _Airbnb Experience-iOS-Check-out_   |
 
@@ -107,21 +107,16 @@ Having a standard project structure helps other team members effectively navigat
 ## Sharing Projects
 Having a standard and clear way to share screens reduce unnecessary back and forth or any chances of miscommunication.
 
-**Links:** Use links to a specific set of screens using tags or sections
+**Links:** Link to a specific set of screens using Tags or Sections.
 
 **Sharing:** Choose a standard channel to share links like Slack, Github, and Jira
 
-![zeplin](./img/sharing.png)
+#### Sharing Links 
 
- 
-
-#### Sharing Links ⚠️#TODO
-
-|   Type     | Location 
+|   Type     | Location  ⚠️#TODO
 | ------------------- |:-------------|
-| We will use group and share links using        | 
-| We will share our links in    |    | 
-
+| We will use group and share links using  | _Sections_ |
+| We will share our links in    |  _Github_  | 
 
 ## Layers
 Layer units are specific to the Zeplin project type (Web, iOS, Android).
