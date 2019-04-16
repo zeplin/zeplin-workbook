@@ -140,24 +140,22 @@ Extensions are the mechanism Zeplin uses to generate code snippets. Some are pla
 
 All Zeplin extensions are JavaScript modules that generate code snippets from various design elements. All code snippets you interact with in Zeplin are generated using extensions. Developers can write their own if they wish, [read more](https://github.com/zeplin/zeplin-extension-documentation) about Zeplin extensions.
 
-
 ## Notes 
 
 **Colors:** use it to indicate the type of note you are leaving or the status of a notes:
 ex.)
 
-- **Green** = designer adding details like describing animations
-
-- **Red** = developer roadblock or requesting changes to design
-
-- **Blue** = comments from PM
-
-- **Resolve** = resolve comments to reduce clutter
+|Color        | Exaxmple usage  |
+| ------------- |:-------------|
+| **Green**   | Designer adding details like describing animations |
+| **Orange**    |  Developer roadblock or requesting changes to design  |
+| **Red**       |  Comments from PM team  |
+| **Green**     |  Resolve comments to reduce clutter  |
 
 #### Color Assignment ⚠️#TODO 
-|Color        | Indication   |
+|Color        | Usage   |
 | ------------- |:-------------|
-| Yellow    | _Design_ |
+| Yellow    |    |
 | Orange    |    |
 | Red       |    |
 | Green     |    |
@@ -167,14 +165,14 @@ ex.)
 
 ## Versions (history)
 
-**Commit Message:** add descriptive message to clarify changes.
+**Commit Message:** add descriptive message to clarify changes. 
 
 _ex._
 
     Do this… Color changed in profile background 
     Not this… Color changed
 
-Color: use it to indicate type of version.
+**Color:** use it to indicate type of version.
 
 _ex._
 
@@ -183,6 +181,16 @@ _ex._
 
 **Delete versions:** frequent exports to Zeplin can clutter version history.
 
+#### Version Color Assignment ⚠️#TODO 
+|Version Color        | Usage   |
+| ------------- |:-------------|
+| Yellow    |    |
+| Orange    |    |
+| Red       |    |
+| Green     |    |
+| Cyan      |    |
+| Blue      |    |
+| Purple    |    |
  
 >💡For more best practices check this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
 
@@ -191,13 +199,13 @@ _ex._
 
 ## Slack Integration 
 
-**#channel:** create a channel in Slack and connect it to your specific Zeplin project. Channels can be based on features, team etc
+**#channel:** Create a channel in Slack and connect it to your specific Zeplin project. Channels can be based on features, team etc.
 ![zeplin](./img/slack.png)
 
-**Notification settings:** on the Zeplin web app you can filter notifications. We recommend to enable only key notification types to prevent noise.
+**Notification settings:** In the Zeplin web app you can filter notifications. We recommend to enable only key notification types to prevent noise.
 ![zeplin](./img/slack-setting.png)
 
-We will create a Slack channel for these type of projects  ⚠️#TODO _link to slack channel_
+We will create a Slack channel for these type of projects: ______________________  ⚠️#TODO _link to slack channel_
 
 We will enable slack notifications for: ⚠️#TODO
 
@@ -206,7 +214,7 @@ We will enable slack notifications for: ⚠️#TODO
 | Screens      | ✅ |
 | Screen Versions      | ✅     |
 | Colors |✅ |
-| Components | 🚫 |
+| Components | ✅ |
 | Text Styles | ✅ |
 | Notes | ✅ |
 | Replies | ✅ |
@@ -214,18 +222,11 @@ We will enable slack notifications for: ⚠️#TODO
 | Extensions | 🚫 |
 | Project Status | ✅ |
 
-## Helpful Links
-- [Zeplin Knowledge Base]()
-- [Zeplin Support]()
-- [Zeplin Project home]()
-- [Zeplin Extensions]()
+## Links
+- [Zeplin Knowledge Base](https://support.zeplin.io/)
+- [Zeplin Project home](https://app.zeplin.io)
 
-https://support.zeplin.io/quick-start/collaborating-with-your-team
-https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2
-https://support.zeplin.io/sketch-integration/exporting-colors-from-sketch
-https://blog.zeplin.io/defining-text-styles-in-zeplin-577b80f339e9
-https://support.zeplin.io/sketch-integration/exporting-assets-from-sketch
-
+>Questions / Comments / Meaning of life : support@zeplin.io
 ---
 <br/>
 
@@ -298,6 +299,9 @@ By clicking on an element you can see its size. Once clicked you can move your m
 
 
 ## Styleguide
+>💡Quickly navigate to your project's stylguide with [Command + G] (macOS), [⌥ + S \ Alt + S] (PC /Web)
+
+#GlennTODO
 
 ### Colors
 >💡Using color variables
@@ -305,10 +309,11 @@ By clicking on an element you can see its size. Once clicked you can move your m
 >💡[Change color formats](https://support.zeplin.io/zeplin-101/changing-color-formats) RGB, ARGB or Hex
 
 ### Text Styles
+#GlennTODO
 
 ### Components
 
-Components are imported from your team's preferred design tools into Zeplin. 
+Components are reusable elements imported from your team's preferred design tools into Zeplin. 
 
 |  Design Tool     |    Native Component name        | 
 | ------------- |-------------| -----:|
@@ -316,15 +321,13 @@ Components are imported from your team's preferred design tools into Zeplin.
 | Figma [[read more](https://support.zeplin.io/figma-integration/exporting-components-from-figma)]     | Components |
 | XD ⚠️ [_coming soon_] | Symbols  |
 
-When the design team exports their symbols/components from their design tool into Zeplin, you'll be able to easily identify elements that are components. For any element that is also a component, you'll see a blue header on that element, in addition to a link to that component in the sidebar (_see image below_).
+When the team exports their symbols/components from their design tool into Zeplin, you'll be able to easily identify elements that are components. For any element that is a component, you can see a blue header on that element, in addition to a link to that component in the sidebar (_see image below_).
 
 ![alt text](./img/component.png "Components in Zeplin")
 
-
 ### Assets 
 
->💡 If you cannot download assets for any particular screen, remind your designers to mark them as exportable***
-If the image assets you need in Zeplin do not have a download icon, this is because they have not been marked as exportable in your Designer's design tool. 
+>💡 If you cannot download assets for a screen, remind your designers to mark those elements as exportable in their design tool. If they are marked as exported and imported into Zeplin, you'll then be able to download them! 
 
 Like layer data, Zeplin tailors assets to the platform your project is set to. The designers on your team will need to mark the assets you need to download from Zeplin as "exportable". 
 
@@ -338,7 +341,7 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 
 >💡[Download ALL assets](https://support.zeplin.io/zeplin-101/downloading-all-available-assets-in-a-screen) for any screen by clicking on the "knife" icon
 
->💡 SVG, SVGO optimization is configurable (on / off).
+>💡 If you want to use your own optimization tools, SVGO optimization is configurable (on / off) in Zeplin.
 
 ![alt text](./img/namingConvention.png "Naming convention for image assets")
 
@@ -348,24 +351,17 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 
 >💡You can rename assets, keep in mind that this will apply only locally. 
 
-### iOS ([read more](https://support.zeplin.io/zeplin-101/developing-ios-projects-using-zeplin))
+### **iOS** ([read more](https://support.zeplin.io/zeplin-101/developing-ios-projects-using-zeplin))
 
 - PNG, PDF image types available
-
 - Asset Catalog Colors ([read more](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a))
- 
- 
 - Export project color palette (from the project Styleguide) directly to your asset catalog (Xcode 9 and up). For more details, check out the blog post for this feature.
-
 - Measurements are in points.
-
 - UIColor/UIFont extensions on Swift or Objective-C, from the project Styleguide.
-
 - When you first export assets into .xcassets  directory of your project, images are added to the appropriate directories and assets are added to your project. Next time you export another asset, you can simply select the project.
-
 - Export project color palette (from the project Styleguide) directly to your asset catalog (Xcode 9 and up). For more details, check out the [blog post](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a) for this feature.
 
-### Android ([read more](https://support.zeplin.io/zeplin-101/developing-android-projects-using-zeplin))
+### **Android** ([read more](https://support.zeplin.io/zeplin-101/developing-android-projects-using-zeplin))
 
 - Measurements are in dp/sp.
 - Assets are available as 5 PNGs (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi) and SVGs. Vector Drawables are on the way!
@@ -373,7 +369,7 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 - TextView  code snippets from text layers.
 
 
-### Web ([read more](https://support.zeplin.io/zeplin-101/developing-web-projects-using-zeplin))
+### **Web** ([read more](https://support.zeplin.io/zeplin-101/developing-web-projects-using-zeplin))
 Measurements are in pixels. Assets are available as 3 PNGs (1x, 2x, 3x), SVGs and optimized SVGs (with SVGO). Bitmap images are also available as 3 JPGs.
 
 - CSS, Sass, SCSS, Less, Stylus snippets from layers, colors and text styles.
@@ -393,24 +389,24 @@ Extensions are the mechanism Zeplin uses to generate code snippets. Some are pla
 
 All Zeplin extensions are JavaScript modules that generate code snippets from various design elements. All code snippets you interact with in Zeplin are generated using extensions. Developers can write their own if they wish, [read more](https://github.com/zeplin/zeplin-extension-documentation) about Zeplin extensions.
 
-[Adding extension to project](https://support.zeplin.io/zeplin-101/adding-an-extension-to-a-project)
+#### [Adding extensions to projects](https://support.zeplin.io/zeplin-101/adding-an-extension-to-a-project)
 
 - [CSS/HTML](https://support.zeplin.io/faq/exporting-css-and-html)
-- [SCSS]()
+- [SCSS](https://github.com/zeplin/stylesheet-extensions)
 - [React Native](https://support.zeplin.io/zeplin-101/exporting-react-native-code-snippets)
-- [Sass]()
-- [Xamarin]()
-- [JSON Design Tokens]()
+- [Sass](https://extensions.zeplin.io/zeplin/sass)
+- [Xamarin Forms](https://extensions.zeplin.io/goldnarms/zeplin-extension-xamarin)
+- [JSON Design Tokens](https://extensions.zeplin.io/berk/zeplin-json-extension)
 
 ### Build your own Extension
-[zem](https://github.com/zeplin/zem) Zeplin extension manager (_zem_), is a command line tool that lets you quickly create and test extensions.
+Zeplin extension manager ([**zem**](https://github.com/zeplin/zem)), is a command line tool that lets you quickly create and test extensions.
 
-Follow the [tutorial](https://github.com/zeplin/zeplin-extension-documentation/blob/master/tutorial.md#adding-a-local-extension) to start building your own Zeplin custom extension.
+Follow the [zem tutorial](https://github.com/zeplin/zeplin-extension-documentation/blob/master/tutorial.md#adding-a-local-extension) to start building your own Zeplin custom extension.
 >💡If you'd like to build a new Zeplin Extension, reach out to glenn@zeplin.io
 
 ![alt text](./img/codeSnippet.png "Code Snippet in Zeplin")
 
-## Prototyping / User flow links [read more](https://blog.zeplin.io/flows-in-zeplin-round-one-c56550f23f0f)
+## Prototyping / User flow links ([read more](https://blog.zeplin.io/flows-in-zeplin-round-one-c56550f23f0f))
 
 When you export your artboards with links to Zeplin, these links will be clickable in Zeplin as well, with no additional setup. Selecting a layer below a hotspot will inform the user and present a button on the right panel to quickly jump to the destination.
 
@@ -424,49 +420,27 @@ When you export your artboards with links to Zeplin, these links will be clickab
 
 ## Integrations 
 
-## Slack Integration ([read more](https://support.zeplin.io/zeplin-101/keep-up-to-date-on-your-projects-with-the-slack-integration))
+### Integration with Slack ([read more](https://support.zeplin.io/zeplin-101/keep-up-to-date-on-your-projects-with-the-slack-integration))
 
-**#channel:** create a channel in Slack and connect it to your specific Zeplin project. Channels can be based on features, team etc
+**#channel:** Create a channel in Slack and connect it to your specific Zeplin project. Channels can be based on features, team etc.
 ![zeplin](./img/slack.png)
 
-**Notification settings:** on the Zeplin web app you can filter notifications. We recommend to enable only key notification types to prevent noise.
+**Notification settings:** In the Zeplin web app you can filter notifications. We recommend to enable only key notification types to prevent noise.
 ![zeplin](./img/slack-setting.png)
 
+### Integration with Trello ([read more](https://support.zeplin.io/zeplin-101/enabling-the-zeplin-power-up-on-trello))
+The Zeplin Power-up on Trello lets you attach your projects, screens and tags to Trello cards, to preview and quickly access them. You can also paste Zeplin links directly to comments, card descriptions and they’ll be infinitely more meaningful.
 
-## trello [read more](https://support.zeplin.io/zeplin-101/enabling-the-zeplin-power-up-on-trello)
-
-
->💡Sharing links to Zeplin in Jira tickets
->💡Share some keyboard shortcuts inline
->💡Command + G for Styleguide
->💡Command + D for Dashboard
->💡Command + Shift + A for All projects
 
 ## Q / A 
-
-**Q:** Where do I get Zeplin help?
-
-**A:** [Zeplin Support]()
-
-**Q:** There are assets I need on a screen, but I don't see any that are downloadable, what gives?
-
-**A:**
-
-
-**Q:** The designer will need to mark the layer/component as exportable in Sketch, Zeplin will generate the necessary assets (on different formats and scales) based on the platform and density you're working on.
-
-**A:**
 
 **Q**: Why are my specs off? 
 
 **A:** Designer might have set the density of the project incorrectly. They can correct this setting [here](https://support.zeplin.io/zeplin-101/choosing-the-correct-project-type-and-density).
 
 
-## Helpful Links
-- [Zeplin Knowledge Base]()
-- [Zeplin Support]()
-- [Zeplin Project home]()
-- [Zeplin Extensions]()
-
+## Links
+- [Zeplin Knowledge Base](https://support.zeplin.io/)
+- [Zeplin Project home](https://app.zeplin.io)
 
 >Questions / Comments / Meaning of life : support@zeplin.io
