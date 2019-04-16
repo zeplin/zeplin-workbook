@@ -143,7 +143,7 @@ If you're tagged in a  note, you can resolve that note.
 ![alt text](./img/monkey.png "Naming convention for image assets")
 >💡Show/hide notes on a design by clicking the 🙈 icon
 
-### Colors 
+### Colors ([read more](https://support.zeplin.io/zeplin-101/organizing-styleguide-colors))
 Use color to indicate the type of note you are leaving or the status of a notes:
 ex.)
 
@@ -154,7 +154,7 @@ ex.)
 | **Red**       |  _PM team feedback_  |
 | **Green**     |  _Accessibility review pending_  |
 
-### Color Assignment  
+#### Color Assignment  
 |Color        | Usage ⚠️#TODO   |
 | ------------- |:-------------|
 | Yellow    |    |
@@ -265,7 +265,7 @@ Zeplin has macOS and Windows desktop apps, however these are not _required_ unle
 
 
 ## Zeplin Projects
-Zeplin projects are created by the design team and are specific to the platform you're developing for. 
+Zeplin projects are created by designers and are platform-specific. Each project has a dashboard of all the uploaded designs, and a Styleguide, which is a collection of the Text Styles, Colors, and Components.
 
 |Project Type   |
 | ------------- |
@@ -274,12 +274,42 @@ Zeplin projects are created by the design team and are specific to the platform 
 | Web           | 
 | macOS         | 
 
-Each project has a dashboard 
+### Dashboard
+Your Dashboard will display your personal, and your Organization projects (if applicable).
 
->💡Dashboard keyboard shortcut
+>💡 Dashboard  ⌨️: Command + D (Mac), ⌥ + A (Mac Web), Alt + A (Windows)
 
->💡Styleguide keyboard shortcut
+![alt text](./img/dashboard.png "Styleguide")
 
+### Styleguide
+
+Collection of the projects Colors, Text Styles, and Components. 
+
+>💡You can change [color formats](https://support.zeplin.io/zeplin-101/changing-color-formats) to RGB, ARGB or Hex
+
+
+>💡 Styleguide ️⌨️: Command + G (Mac),  ⌥ + S (Mac Web), Alt + S (Windows)
+
+![alt text](./img/styleguide.png "Styleguide")
+
+![alt text](./img/org.png)
+
+>_ex. I have personal projects, Zeplin Organization, and Game of Throne's Organization projects_
+
+
+#### Components
+
+Components are reusable elements imported from your team's preferred design tools into Zeplin. 
+
+|  Design Tool     |    Native Component name        | 
+| ------------- |-------------| 
+| Sketch [[read more](https://support.zeplin.io/sketch-integration/exporting-components-from-sketch)]       | Symbols  | 
+| Figma [[read more](https://support.zeplin.io/figma-integration/exporting-components-from-figma)]     | Components |
+| XD ⚠️ [_coming soon_] | Symbols  |
+
+When the team exports their symbols/components from their design tool into Zeplin, you'll be able to easily identify elements that are components. For any element that is a component, you can see a blue header on that element, in addition to a link to that component in the sidebar (_see image below_).
+
+![alt text](./img/component.png "Components in Zeplin")
 
 ## Sharing project URIs ([read more](https://support.zeplin.io/zeplin-101/sharing-app-uris))
 Links to projects in Zeplin will open in the Web or Desktop App
@@ -306,41 +336,13 @@ Layer units are specific to the Zeplin project type (Web, iOS, Android).
 | Web | px |
 
 ### Measurements 
-By clicking on an element you can see its size. Once clicked you can move your mouse around and see spacing it is from other elements. Additionally, on the right panel, any assets, colors, coordinates, and code markup such as CSS (if Zeplin project type is Web) will be present.
+By clicking on an element you can see its size. Once clicked you can move your mouse around and see spacing it is from other elements. Additionally, on the right panel, any assets, colors, coordinates, and code markup such as CSS (ex. if Zeplin project type is Web) will be present.
 
 ![alt text](./img/measurements.png "Components in Zeplin")
 
 >💡Hold "alt" to see relative distances instead of discrete values.
 
 ![alt text](./img/percentages.png "Components in Zeplin")
-
-
-
-## Styleguide
->💡Quickly navigate to your project's Stylguide with [Command + G] (macOS), [⌥ + S \ Alt + S] (PC /Web)
-
-
-### Colors
->💡Using color variables
-
->💡[Change color formats](https://support.zeplin.io/zeplin-101/changing-color-formats) RGB, ARGB or Hex
-
-### Text Styles
-#GlennTODO
-
-### Components
-
-Components are reusable elements imported from your team's preferred design tools into Zeplin. 
-
-|  Design Tool     |    Native Component name        | 
-| ------------- |-------------| 
-| Sketch [[read more](https://support.zeplin.io/sketch-integration/exporting-components-from-sketch)]       | Symbols  | 
-| Figma [[read more](https://support.zeplin.io/figma-integration/exporting-components-from-figma)]     | Components |
-| XD ⚠️ [_coming soon_] | Symbols  |
-
-When the team exports their symbols/components from their design tool into Zeplin, you'll be able to easily identify elements that are components. For any element that is a component, you can see a blue header on that element, in addition to a link to that component in the sidebar (_see image below_).
-
-![alt text](./img/component.png "Components in Zeplin")
 
 ### Assets 
 
@@ -368,7 +370,7 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 
 >💡You can rename assets, keep in mind that this will apply only locally. 
 
-### **iOS** ([read more](https://support.zeplin.io/zeplin-101/developing-ios-projects-using-zeplin))
+### **iOS Development** ([read more](https://support.zeplin.io/zeplin-101/developing-ios-projects-using-zeplin))
 
 - PNG, PDF image types available
 - Asset Catalog Colors ([read more](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a))
@@ -378,7 +380,7 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 - When you first export assets into .xcassets  directory of your project, images are added to the appropriate directories and assets are added to your project. Next time you export another asset, you can simply select the project.
 - Export project color palette (from the project Styleguide) directly to your asset catalog (Xcode 9 and up). For more details, check out the [blog post](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a) for this feature.
 
-### **Android** ([read more](https://support.zeplin.io/zeplin-101/developing-android-projects-using-zeplin))
+### **Android Development** ([read more](https://support.zeplin.io/zeplin-101/developing-android-projects-using-zeplin))
 
 - Measurements are in dp/sp.
 - Assets are available as 5 PNGs (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi) and SVGs. Vector Drawables are on the way!
@@ -386,7 +388,7 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 - TextView  code snippets from text layers.
 
 
-### **Web** ([read more](https://support.zeplin.io/zeplin-101/developing-web-projects-using-zeplin))
+### **Web Development** ([read more](https://support.zeplin.io/zeplin-101/developing-web-projects-using-zeplin))
 Measurements are in pixels. Assets are available as 3 PNGs (1x, 2x, 3x), SVGs and optimized SVGs (with SVGO). Bitmap images are also available as 3 JPGs.
 
 - CSS, Sass, SCSS, Less, Stylus snippets from layers, colors and text styles.
