@@ -63,7 +63,7 @@ Once your team starts using Zeplin, it’s common for your dashboard to have hun
 
 **Naming:** Use vocabulary that’s familiar to your team like team, group, platform, project, feature, epic name.
 
-_ex. StartupInc Experience-iOS-Check-out_
+>_ex. StartupInc Experience-iOS-Check-out_
 
 **Thumbnail:** Add a thumbnail to your project that makes it easy to distinguish platform type (Web, iOS, Android) or team.
 
@@ -134,7 +134,17 @@ Developers can write their own if they wish, [read more](https://github.com/zepl
 
 ## Notes & Commenting
 
-**Colors:** use it to indicate the type of note you are leaving or the status of a notes:
+### Commenting
+
+You can quickly add a note by Cmd + Clicking (Ctrl for Windows and Linux users) anywhere on the screen. You can even mention other teammates with “@” and they will receive a notification.
+
+If you're tagged in a  note, you can resolve that note.
+
+![alt text](./img/monkey.png "Naming convention for image assets")
+>💡Show/hide notes on a design by clicking the 🙈 icon
+
+### Colors 
+Use color to indicate the type of note you are leaving or the status of a notes:
 ex.)
 
 |Color        | Example  |
@@ -144,7 +154,7 @@ ex.)
 | **Red**       |  _PM team feedback_  |
 | **Green**     |  _Accessibility review pending_  |
 
-#### Color Assignment  
+### Color Assignment  
 |Color        | Usage ⚠️#TODO   |
 | ------------- |:-------------|
 | Yellow    |    |
@@ -243,6 +253,7 @@ Zeplin acts as a source of truth for development to implement in a connected spa
 | Windows | Download [\[32-bit\]](https://zpl.io/download-windows-32) [\[64-bit\]](https://zpl.io/download-windows-64) |  
 
 [**Supported OS & Web Versions**](https://support.zeplin.io/faq/supported-versions) 💻
+>💡 Keyboard shortcuts: [Mac](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-mac-app) / [Web](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-windows-and-web-app) / [PC](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-windows-and-web-app)
 
 ### Desktop vs. Web app
 The Zeplin Web app has access everything you need. 
@@ -250,9 +261,25 @@ Zeplin has macOS and Windows desktop apps, however these are not _required_ unle
 * Importing designs into Zeplin
 * Using Zeplin [Pop-out](https://support.zeplin.io/zeplin-101/comparing-appwebsite-with-designs-using-pop-out) feature to overlay the designs on your simulator
 
->💡 Zeplin Web also works on Linux
+>💡Zeplin Web works on Linux
 
->💡 Keyboard shortcuts: [Mac](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-mac-app) / [Web](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-windows-and-web-app) / [PC](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-windows-and-web-app)
+
+## Zeplin Projects
+Zeplin projects are created by the design team and are specific to the platform you're developing for. 
+
+|Project Type   |
+| ------------- |
+| iOS           | 
+| Android       | 
+| Web           | 
+| macOS         | 
+
+Each project has a dashboard 
+
+>💡Dashboard keyboard shortcut
+
+>💡Styleguide keyboard shortcut
+
 
 ## Sharing project URIs ([read more](https://support.zeplin.io/zeplin-101/sharing-app-uris))
 Links to projects in Zeplin will open in the Web or Desktop App
@@ -269,8 +296,6 @@ If you're tagged in a  note, you can resolve that note.
 ![alt text](./img/monkey.png "Naming convention for image assets")
 >💡Show/hide notes on a design by clicking the 🙈 icon
 
-### Inviting more teammates
-
 ## Layers
 Layer units are specific to the Zeplin project type (Web, iOS, Android).
 
@@ -281,13 +306,19 @@ Layer units are specific to the Zeplin project type (Web, iOS, Android).
 | Web | px |
 
 ### Measurements 
-By clicking on an element you can see its size. Once clicked you can move your mouse around and see spacing it is from other elements. Additionally, on the right panel, any assets, colors, coordinates, and code markup such as CSS will be present. An example of this action is shown below. 
+By clicking on an element you can see its size. Once clicked you can move your mouse around and see spacing it is from other elements. Additionally, on the right panel, any assets, colors, coordinates, and code markup such as CSS (if Zeplin project type is Web) will be present.
+
+![alt text](./img/measurements.png "Components in Zeplin")
+
+>💡Hold "alt" to see relative distances instead of discrete values.
+
+![alt text](./img/percentages.png "Components in Zeplin")
+
 
 
 ## Styleguide
->💡Quickly navigate to your project's stylguide with [Command + G] (macOS), [⌥ + S \ Alt + S] (PC /Web)
+>💡Quickly navigate to your project's Stylguide with [Command + G] (macOS), [⌥ + S \ Alt + S] (PC /Web)
 
-#GlennTODO
 
 ### Colors
 >💡Using color variables
