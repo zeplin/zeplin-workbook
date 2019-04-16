@@ -3,9 +3,9 @@
 
 We've crafted a Zeplin onboarding workbook to make it easy for you to define your team's developer/designer collaboration process.
 
-- [Zeplin Workbook 📚](#Zeplin-Guide-📚)
+- [Zeplin Workbook 📚](#zeplin-guide-)
 
-- [Zeplin Workbook for developers 💻](#Zeplin-Guide-for-Developers-⚗️-📚)
+- [Zeplin Workbook for developers 💻](#zeplin-guide-for-developers-️-)
 
 Let us know your feedback, we ❤️to [hear it]("mailto:support@zeplin.io"). 
 
@@ -421,12 +421,6 @@ When you export your artboards with links to Zeplin, these links will be clickab
 ## Integrations 
 
 ### Integration with Slack ([read more](https://support.zeplin.io/zeplin-101/keep-up-to-date-on-your-projects-with-the-slack-integration))
-
-**#channel:** Create a channel in Slack and connect it to your specific Zeplin project. Channels can be based on features, team etc.
-![zeplin](./img/slack.png)
-
-**Notification settings:** In the Zeplin web app you can filter notifications. We recommend to enable only key notification types to prevent noise.
-![zeplin](./img/slack-setting.png)
 
 ### Integration with Trello ([read more](https://support.zeplin.io/zeplin-101/enabling-the-zeplin-power-up-on-trello))
 The Zeplin Power-up on Trello lets you attach your projects, screens and tags to Trello cards, to preview and quickly access them. You can also paste Zeplin links directly to comments, card descriptions and they’ll be infinitely more meaningful.
