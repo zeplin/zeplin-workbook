@@ -128,24 +128,24 @@ Layer units are specific to the Zeplin project type (Web, iOS, Android).
 | Web | px |
 
 ## Extensions & Code Snippets
-Extensions are the mechanism Zeplin uses to generate code snippets. Some are platform specific, and some are platform agnostic. These will be used by your developers to implement your designs.
+All code snippets in Zeplin are generated using extensions. Some are platform specific, and some are platform generic. These will be used by your developers to implement your designs.
 
-All Zeplin extensions are JavaScript modules that generate code snippets from various design elements. All code snippets you interact with in Zeplin are generated using extensions. Developers can write their own if they wish, [read more](https://github.com/zeplin/zeplin-extension-documentation) about Zeplin extensions.
+Developers can write their own if they wish, [read more](https://github.com/zeplin/zeplin-extension-documentation) about Zeplin extensions. 
 
-## Notes 
+## Notes & Commenting
 
 **Colors:** use it to indicate the type of note you are leaving or the status of a notes:
 ex.)
 
 |Color        | Example  |
 | ------------- |:-------------|
-| **Green**   | Designer adding details like describing animations |
-| **Orange**    |  Developer roadblock or requesting changes to design  |
-| **Red**       |  PM team feedback  |
-| **Green**     |  Accessibilty  |
+| **Green**     | _Designer adding details like describing animations_ |
+| **Orange**    |  _Developer roadblock or requesting changes to design_  |
+| **Red**       |  _PM team feedback_  |
+| **Green**     |  _Accessibility review pending_  |
 
-#### Color Assignment ⚠️#TODO 
-|Color        | Usage   |
+#### Color Assignment  
+|Color        | Usage ⚠️#TODO   |
 | ------------- |:-------------|
 | Yellow    |    |
 | Orange    |    |
