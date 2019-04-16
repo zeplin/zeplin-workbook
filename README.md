@@ -316,7 +316,7 @@ By clicking on an element you can see its size. Once clicked you can move your m
 Components are reusable elements imported from your team's preferred design tools into Zeplin. 
 
 |  Design Tool     |    Native Component name        | 
-| ------------- |-------------| -----:|
+| ------------- |-------------| 
 | Sketch [[read more](https://support.zeplin.io/sketch-integration/exporting-components-from-sketch)]       | Symbols  | 
 | Figma [[read more](https://support.zeplin.io/figma-integration/exporting-components-from-figma)]     | Components |
 | XD ⚠️ [_coming soon_] | Symbols  |
