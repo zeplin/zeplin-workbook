@@ -159,32 +159,24 @@ ex.)
 
 **Commit Message:** add descriptive message to clarify changes. 
 
-_ex._
-
-    Do this… Color changed in profile background 
-    Not this… Color changed
+>_ex. Color change to #FFFFFF in profile background_ 
 
 **Color:** use it to indicate type of version.
 
-_ex._
+**Delete versions:** Frequent exports to Zeplin can clutter version history, be sure to either leave commit messages or delete versions.
 
-    Based on stages - red for experiment, green for approved
-    Based on changes - red for major, yellow for minor,
-
-**Delete versions:** frequent exports to Zeplin can clutter version history.
-
-#### Version Color Assignment ⚠️#TODO 
-|Version Color        | Usage   |
+#### Version Color Assignment 
+|Version Color        | Usage ⚠️#TODO    |
 | ------------- |:-------------|
 | Yellow    |    |
-| Orange    |    |
-| Red       |    |
-| Green     |    |
+| Orange    | _Pending_   |
+| Red       | _Experiment_   | 
+| Green     | _Approved_   | 
 | Cyan      |    |
 | Blue      |    |
 | Purple    |    |
  
->💡For more best practices using Versions see this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
+>💡For more best practices leveraging Versions see this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
 
 ![zeplin](./img/versions.png)
 
@@ -195,13 +187,15 @@ _ex._
 ![zeplin](./img/slack.png)
 
 **Notification settings:** In the Zeplin web app you can filter notifications. We recommend to enable only key notification types to prevent noise.
-![zeplin](./img/slack-setting.png)
+![zeplin](./img/slack-setting.png)   
 
-We will create a Slack channel for these type of projects: ______________________  ⚠️#TODO _link to slack channel_
+|Desription        | Location ⚠️#TODO
+| ------------- |:-------------|
+|We will create a Slack channel for these type of projects      | _link to slack channel_ |
 
-We will enable slack notifications for: ⚠️#TODO
+We will enable slack notifications for: 
 
-|Notification        | Enabled   |
+|Notification        | Enabled ⚠️#TODO  |
 | ------------- |:-------------|
 | Screens      | ✅ |
 | Screen Versions      | ✅     |
@@ -211,7 +205,7 @@ We will enable slack notifications for: ⚠️#TODO
 | Notes | ✅ |
 | Replies | ✅ |
 | Members | 🚫 |
-| Extensions | 🚫 |
+| Extensions | ✅ |
 | Project Status | ✅ |
 
 ## Links
