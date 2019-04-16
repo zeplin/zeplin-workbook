@@ -20,7 +20,7 @@ Let us know your feedback, we ❤️to [hear it]("mailto:support@zeplin.io").
 
 ## Complete these steps
 
-- [ ] Fill out all the fields with your Design and Development lead below marked with ⚠️#TODO
+- [ ] Fill out all the fields below marked with ⚠️#TODO with your Design and Development lead
 - [ ] Copy .md file into your wiki
 
 >💡Remove any section(s) of this workbook that are not helpful/applicable to your process
@@ -36,7 +36,7 @@ Let us know your feedback, we ❤️to [hear it]("mailto:support@zeplin.io").
 
 ## Getting Access to Zeplin
 
-1. Send request to Zeplin Admin(s).
+1. Send request to Zeplin Admin(s), see [Quick Reference](#quick-reference) above.
 
 2. Create a [**Zeplin account**](https://app.zeplin.io/register) with your work email. 
 
@@ -59,19 +59,19 @@ Zeplin has macOS and Windows desktop apps, however these are not _required_ unle
 ## Project Naming Convention
 
 ### Guide
-Once you start using Zeplin, it’s common to grow to having hundreds of projects. Establishing a naming convention enhances visibility of projects and discoverability.
+Once your team starts using Zeplin, it’s common for your dashboard to have hundreds of projects. Establishing a [roject naming convention enhances visibility of projects and discoverability.
 
-**Naming:** use vocabulary that’s familiar to your team like team, group, platform, project, feature, epic name.
+**Naming:** Use vocabulary that’s familiar to your team like team, group, platform, project, feature, epic name.
 
-_ex. Airbnb Experience-iOS-Check-out_
+_ex. StartupInc Experience-iOS-Check-out_
 
 **Thumbnail:** Add a thumbnail to your project that makes it easy to distinguish platform type (Web, iOS, Android) or team.
 
-_ex. Sample thumbnail_
+_ex. 
 
 ![zeplin](./img/artboardThumbnail.png)
 
-_ex. Some teams color code thumbnails like this_
+_ex. Some teams color code thumbnails like this; for iOS, Web, Android_
 ![zeplin](./img/project-naming.png)
 
 ### Project Naming Convention ⚠️#TODO
@@ -80,31 +80,28 @@ _ex. Some teams color code thumbnails like this_
 | ------------------- |:-------------|:-------------|
 | Naming Convention    |   _[Team/brand name] - [platform] - [feature]_ |    _Airbnb Experience-iOS-Check-out_   |
 
-                                    Insert thumbnail image ⚠️#TODO
-
-<br>
+                                    Sample thumbnail image ⚠️#TODO
 
 
 ## Project Structure
 
 Having a standard project structure helps other team members effectively navigate through your project especially your developer counterpart.
 
-**Project Description:** add links to documentation and relevant stakeholders.
+**Project Description:** Add links to documentation and relevant stakeholders.
 
-**Sections:** group screens by user flow, features or epics.
+**Sections:** Group screens by user flow, features or epics.
 
-**Section Descriptions:** brief description of each section.
+**Section Descriptions:** Brief description of each section.
 
-**Screen Tags:** group screens by design stage, team names, date, version or screen type like Empty State or Pop-up
+**Screen Tags:** Group screens by design stage, team names, date, version or screen type like Empty State or Pop-up.
+ 
 
-### ⚠️#TODO
-
-|   Type     | Content | Example
+|   Type     | Content ⚠️#TODO | Example ⚠️#TODO
 | ------------------- |:-------------|:-------------|
-| We will use Project Descriptions to describe    |          |       |
-| We will group Screens into Sections by    |    |      |
-| We will use Section Description to describe    |  |        |
-| We will group Screens with tags by    |   |       |
+| We will use Project Descriptions to describe    |   _What is the purpose of this project_        |  _This interface shows our cargo assets in the field_     |
+| We will group Screens into Sections by    |  _User interaction_  |   _Login flow_   |
+| We will use Section Description to describe    | _User experience, what is the user doing here_ |   _This is where the user will check out their cart_     |
+| We will group Screens with tags by    |  _What state it's in_ |  _ready for development, needs design, needs dev, needs legal_     |
 
 
 ## Sharing Projects
@@ -116,9 +113,9 @@ Having a standard and clear way to share screens reduce unnecessary back and for
 
 ![zeplin](./img/sharing.png)
 
-⚠️#TODO 
+ 
 
-#### Sharing Links
+#### Sharing Links ⚠️#TODO
 
 |   Type     | Location 
 | ------------------- |:-------------|
@@ -145,12 +142,12 @@ All Zeplin extensions are JavaScript modules that generate code snippets from va
 **Colors:** use it to indicate the type of note you are leaving or the status of a notes:
 ex.)
 
-|Color        | Exaxmple usage  |
+|Color        | Example  |
 | ------------- |:-------------|
 | **Green**   | Designer adding details like describing animations |
 | **Orange**    |  Developer roadblock or requesting changes to design  |
-| **Red**       |  Comments from PM team  |
-| **Green**     |  Resolve comments to reduce clutter  |
+| **Red**       |  PM team feedback  |
+| **Green**     |  Accessibilty  |
 
 #### Color Assignment ⚠️#TODO 
 |Color        | Usage   |
@@ -192,7 +189,7 @@ _ex._
 | Blue      |    |
 | Purple    |    |
  
->💡For more best practices check this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
+>💡For more best practices using Versions see this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
 
 ![zeplin](./img/versions.png)
 
