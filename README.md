@@ -224,6 +224,53 @@ We will enable slack notifications for:
 
 >Questions / Comments / Meaning of life : support@zeplin.io
 ---
+
+## Preparing Assets
+**Assets:** mark icons and images as exportable in Sketch
+
+**Naming:** Agree to an asset naming convention between design and engineering. You can edit asset names in Zeplin too.
+
+**Tips**
+Decide format: CamelCase vs. snake_case
+Make it unique
+Make it descriptive
+
+ex.) profile-gear-highlighted.png
+
+![zeplin](./img/assets.png) 
+
+|Platform        | Naming ⚠️#TODO  |
+| ------------- |:-------------|
+| Web asset naming example      |   |
+| iOS asset naming example      |       |
+| Android asset naming example |  |
+
+
+## Preparing Styleguide
+
+**Styleguide 🎨:** upload color palette and text styles. 
+
+**Components:** export symbols as components
+
+We recommend for designers and engineers to agree on color and text style names.
+
+![zeplin](./img/styleguide.png)
+
+|Text Style Naming       |
+| ------------- |
+| Header 1     |
+| Header 2     |
+| Body |
+|      |
+
+
+|Color Naming       |
+| ------------- |
+|  BananaYellow    |
+|  LivingCoral    |
+|  CactusGreen    |
+|      |
+
 <br/>
 
 # Zeplin Guide for Developers ⚗️ 📚 
