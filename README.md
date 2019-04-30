@@ -256,21 +256,6 @@ We recommend for designers and engineers to agree on color and text style names.
 
 ![zeplin](./img/styleguide.png)
 
-|Text Style Naming       |
-| ------------- |
-| Header 1     |
-| Header 2     |
-| Body |
-|      |
-
-
-|Color Naming       |
-| ------------- |
-|  BananaYellow    |
-|  LivingCoral    |
-|  CactusGreen    |
-|      |
-
 <br/>
 
 # Zeplin Guide for Developers ⚗️ 📚 
