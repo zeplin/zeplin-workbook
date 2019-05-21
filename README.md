@@ -1,5 +1,4 @@
-# Zeplin Onboarding Workbook! 
-
+# Zeplin Onboarding Workbook
 
 We've crafted a Zeplin onboarding workbook to make it easy for you to define your team's developer/designer collaboration process.
 
@@ -7,23 +6,22 @@ We've crafted a Zeplin onboarding workbook to make it easy for you to define you
 
 - [Zeplin Workbook for developers 💻](#zeplin-guide-for-developers-️-)
 
-Let us know your feedback, we ❤️to [hear it]("mailto:support@zeplin.io"). 
+Let us know your feedback, we love to [hear it](mailto:hi@zeplin.io). 
 
 -Zeplin Crew
+
 <br/>
 
 ---
  
 # Zeplin Guide 📚
 
-##### Legend: 💡: Pro-tip
+##### Legend: 🎩🐰: Pro-tip
 
 ## Complete these steps
 
 - [ ] Fill out all the fields below marked with ⚠️#TODO with your Design and Development lead
 - [ ] Copy .md file into your wiki
-
->💡Remove any section(s) of this workbook that are not helpful/applicable to your process
 
 ## Quick Reference  
 |   Role     |  Contact ⚠️#TODO |
@@ -33,55 +31,50 @@ Let us know your feedback, we ❤️to [hear it]("mailto:support@zeplin.io").
 | Development Contact | _todo@domain.com_                   |
 | Web Contact           | _todo@domain.com_                 |
 
-
 ## Getting Access to Zeplin
 
 1. Send request to Zeplin Admin(s), see [Quick Reference](#quick-reference) above.
 
-2. Create a [**Zeplin account**](https://app.zeplin.io/register) with your work email. 
+2. Register a [**Zeplin account**](https://app.zeplin.io/register) with your work email, we also support SSO with Google.  
 
-3. Download Zeplin ↓
+3. Download Zeplin ↓ After registering a Zeplin account, you'll be given the option to download the Desktop app or continue with the Web app. The Desktop app is supported on macOS and Windows, however is not _required_ unless you're:
+    * Exporting designs into Zeplin.
+    * Using the [**Pop Out**](https://support.zeplin.io/zeplin-101/comparing-appwebsite-with-designs-using-pop-out) feature to overlay designs onto your simulator/emulator/web browser.
+    * Ability to add image & color assets directly to iOS or Android projects. The Desktop app can download your design's images assets directly into the applicable resources folder of your Android or iOS projects. For more details on this feature, [read more](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a).
 
-|Platform        |     Access        |    
-| :------------- |:-------------|
-| Web      | [app.zeplin.io](https://app.zeplin.io)  | [Supported Versions](https://support.zeplin.io/faq/supported-versions)  |
-| macOS      | Download [\[64-bit\]](https://zpl.io/download-mac) | 
-| Windows | Download [\[32-bit\]](https://zpl.io/download-windows-32) [\[64-bit\]](https://zpl.io/download-windows-64) |  
+    If you decide on downloading the app later on, you can also use these links:
 
-[**Supported OS & Web Versions**](https://support.zeplin.io/faq/supported-versions) 💻
+    |Platform        |     Access        |    
+    | :------------- |:-------------|
+    | Web      | [app.zeplin.io](https://app.zeplin.io)  | [Supported Versions](https://support.zeplin.io/faq/supported-versions)  |
+    | macOS      | Download [\[64-bit\]](https://zpl.io/download-mac) | 
+    | Windows | Download [\[32-bit\]](https://zpl.io/download-windows-32) [\[64-bit\]](https://zpl.io/download-windows-64) |  
 
-### Desktop vs. Web app
-The Zeplin Web app has access everything you need. 
-Zeplin has macOS and Windows desktop apps, however these are not _required_ unless you're:
-* Importing designs into Zeplin
-* Using Zeplin [Pop-out](https://support.zeplin.io/zeplin-101/comparing-appwebsite-with-designs-using-pop-out) feature to overlay the designs on your simulator
+    More information: [**Supported OS & Web Versions**](https://support.zeplin.io/faq/supported-versions)
 
 ## Project Naming Convention
 
 ### Guide
-Once your team starts using Zeplin, it’s common for your dashboard to have hundreds of projects. Establishing a [roject naming convention enhances visibility of projects and discoverability.
+Once your team starts using Zeplin, it’s common for your dashboard to have hundreds of projects. Establishing a project naming convention enhances visibility of projects and discoverability.
 
-**Naming:** Use vocabulary that’s familiar to your team like team, group, platform, project, feature, epic name.
+**Naming:** Use vocabulary that’s familiar to your team like team, group, project, feature, epic name.
 
->_ex. StartupInc Experience-iOS-Check-out_
+>example - StartupInc Experience-iOS-Check-out
 
 **Thumbnail:** Add a thumbnail to your project that makes it easy to distinguish platform type (Web, iOS, Android) or team.
 
-_ex. 
+>example -
 
 ![zeplin](./img/artboardThumbnail.png)
 
-_ex. Some teams color code thumbnails like this; for iOS, Web, Android_
+>example - Some teams color code thumbnails like this; for iOS, Web, Android_
 ![zeplin](./img/project-naming.png)
 
 ### Project Naming Convention 
 
 |   Type     | Content ⚠️#TODO | Example ⚠️#TODO
 | ------------------- |:-------------|:-------------|
-| Naming Convention    |   _[Team/brand name] - [platform] - [feature]_ |    _Airbnb Experience-iOS-Check-out_   |
-
-                                    Sample thumbnail image ⚠️#TODO
-
+| Naming Convention    |   _[Team/brand name] - [feature]_ |    _Airbnb Experience-Check-out_   |
 
 ## Project Structure
 
@@ -141,22 +134,22 @@ You can quickly add a note by Cmd + Clicking (Ctrl for Windows and Linux users) 
 If you're tagged in a  note, you can resolve that note.
 
 ![alt text](./img/monkey.png "Naming convention for image assets")
->💡Show/hide notes on a design by clicking the 🙈 icon
+>🎩🐰 Show/hide notes on a design by clicking the 🙈 icon
 
 ### Colors ([read more](https://support.zeplin.io/zeplin-101/organizing-styleguide-colors))
 Use color to indicate the type of note you are leaving or the status of a notes:
 ex.)
 
 |Color        | Example  |
-| ------------- |:-------------|
-| **Green**     | _Designer adding details like describing animations_ |
-| **Orange**    |  _Developer roadblock or requesting changes to design_  |
-| **Red**       |  _PM team feedback_  |
-| **Green**     |  _Accessibility review pending_  |
+|:------------- |:-------------|
+| Green    | _Designer adding details like describing animations_ |
+| Orange    |  _Developer roadblock or requesting changes to design_  |
+| Red       |  _PM team feedback_  |
+| Green     |  _Accessibility review pending_  |
 
 #### Color Assignment  
 |Color        | Usage ⚠️#TODO   |
-| ------------- |:-------------|
+|:------------- |:-------------|
 | Yellow    |    |
 | Orange    |    |
 | Red       |    |
@@ -177,7 +170,7 @@ ex.)
 
 #### Version Color Assignment 
 |Version Color        | Usage ⚠️#TODO    |
-| ------------- |:-------------|
+|:------------- |:-------------|
 | Yellow    |    |
 | Orange    | _Pending_   |
 | Red       | _Experiment_   | 
@@ -186,7 +179,7 @@ ex.)
 | Blue      |    |
 | Purple    |    |
  
->💡For more best practices leveraging Versions see this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
+>🎩🐰 For more best practices leveraging Versions see this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
 
 ![zeplin](./img/versions.png)
 
@@ -228,14 +221,11 @@ We will enable slack notifications for:
 ## Preparing Assets
 **Assets:** mark icons and images as exportable in Sketch
 
-**Naming:** Agree to an asset naming convention between design and engineering. You can edit asset names in Zeplin too.
+**Naming:** Agree to an asset naming convention between design and engineering. You can edit asset names in Zeplin too. The default naming convention for assets is configurable.
 
-**Tips**
-Decide format: CamelCase vs. snake_case
-Make it unique
-Make it descriptive
+![zeplin](./img/namingConvention.png) 
 
-ex.) profile-gear-highlighted.png
+>example: profile-gear-highlighted.png
 
 ![zeplin](./img/assets.png) 
 
@@ -263,37 +253,34 @@ We recommend for designers and engineers to agree on color and text style names.
 ##### Legend: 💡: Pro-tip
 
 ## Welcome to Zeplin
-Zeplin is a designer/developer collaboration tool. Designers upload their artboards/screens via their preferred design program (Sketch, Figma, Adobe XD, Adobe Photoshop) into Zeplin. Team members in Zeplin can view designs, make comments, tag others, view layer data, code snippets, components, and download image assets. 
+Zeplin is a designer/developer collaboration product. Designers upload their artboards/screens via their preferred design program (Sketch, Figma, Adobe XD, Adobe Photoshop) into Zeplin. Team members in Zeplin can view designs, make comments, tag others, view specs, code snippets, components, and download image assets. 
 
 Zeplin acts as a source of truth for development to implement in a connected space, encouraging collaboration by all project stakeholders. 
 
->💡 Zeplin helps make your design, development, and collaboration life easier. 
-
+>🎩🐰 Zeplin helps make your design, development, and collaboration life easier. 
 
 ## Getting Access to Zeplin
 
-1. Send request to Zeplin Admin(s).
+1. Send request to Zeplin Admin(s), see [Quick Reference](#quick-reference) above.
 
-2. Create a [**Zeplin account**](https://app.zeplin.io/register) with your work email. 
+2. Register a [**Zeplin account**](https://app.zeplin.io/register) with your work email, we also support SSO with Google.  
 
-3. Download Zeplin ↓
+3. Download Zeplin ↓ After registering a Zeplin account, you'll be given the option to download the Desktop app or continue with the Web app. The Desktop app is supported on macOS and Windows, however is not _required_ unless you're:
+    * Exporting designs into Zeplin.
+    * Using the [**Pop Out**](https://support.zeplin.io/zeplin-101/comparing-appwebsite-with-designs-using-pop-out) feature to overlay designs onto your simulator/emulator/web browser.
+    * Ability to add image & color assets directly to iOS or Android projects. The Desktop app can download your design's images assets directly into the applicable resources folder of your Android or iOS projects. For more details on this feature, [read more](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a).
 
-|Platform        |     Access        |    
-| :------------- |:-------------|
-| Web      | [https://app.zeplin.io](https://app.zeplin.io)  | [Supported Versions](https://support.zeplin.io/faq/supported-versions)  |
-| macOS      | Download [\[64-bit\]](https://zpl.io/download-mac) | 
-| Windows | Download [\[32-bit\]](https://zpl.io/download-windows-32) [\[64-bit\]](https://zpl.io/download-windows-64) |  
+    If you decide on downloading the app later on, you can also use these links:
 
-[**Supported OS & Web Versions**](https://support.zeplin.io/faq/supported-versions) 💻
->💡 Keyboard shortcuts: [Mac](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-mac-app) / [Web](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-windows-and-web-app) / [PC](https://support.zeplin.io/tips-and-tricks/keyboard-shortcuts-for-the-windows-and-web-app)
+    |Platform        |     Access        |    
+    | :------------- |:-------------|
+    | Web      | [app.zeplin.io](https://app.zeplin.io)  | [Supported Versions](https://support.zeplin.io/faq/supported-versions)  |
+    | macOS      | Download [\[64-bit\]](https://zpl.io/download-mac) | 
+    | Windows | Download [\[32-bit\]](https://zpl.io/download-windows-32) [\[64-bit\]](https://zpl.io/download-windows-64) |  
 
-### Desktop vs. Web app
-The Zeplin Web app has access everything you need. 
-Zeplin has macOS and Windows desktop apps, however these are not _required_ unless you're:
-* Importing designs into Zeplin
-* Using Zeplin [Pop-out](https://support.zeplin.io/zeplin-101/comparing-appwebsite-with-designs-using-pop-out) feature to overlay the designs on your simulator
+    More information: [**Supported OS & Web Versions**](https://support.zeplin.io/faq/supported-versions)
 
->💡Zeplin Web works on Linux
+>🎩🐰 Zeplin Web app works on Linux (Chrome)
 
 
 ## Zeplin Projects
@@ -309,7 +296,7 @@ Zeplin projects are created by designers and are platform-specific. Each project
 ### Dashboard
 Your Dashboard will display your personal, and your Organization projects (if applicable).
 
->💡 Dashboard  ⌨️: Command + D (Mac), ⌥ + A (Mac Web), Alt + A (Windows)
+>🎩🐰 Dashboard  ⌨️: Command + D (Mac), ⌥ + A (Mac Web), Alt + A (Windows)
 
 ![alt text](./img/dashboard.png "Styleguide")
 
@@ -317,10 +304,10 @@ Your Dashboard will display your personal, and your Organization projects (if ap
 
 Collection of the projects Colors, Text Styles, and Components. 
 
->💡You can change [color formats](https://support.zeplin.io/zeplin-101/changing-color-formats) to RGB, ARGB or Hex
+>🎩🐰 You can change [color formats](https://support.zeplin.io/zeplin-101/changing-color-formats) to RGB, ARGB or Hex
 
 
->💡 Styleguide ️⌨️: Command + G (Mac),  ⌥ + S (Mac Web), Alt + S (Windows)
+>🎩🐰 Styleguide ️⌨️: Command + G (Mac),  ⌥ + S (Mac Web), Alt + S (Windows)
 
 ![alt text](./img/styleguide.png "Styleguide")
 
@@ -331,7 +318,7 @@ Collection of the projects Colors, Text Styles, and Components.
 
 #### Components
 
-Components are reusable elements imported from your team's preferred design tools into Zeplin. 
+Components are reusable elements that are exported from your team's preferred design tool into Zeplin. 
 
 |  Design Tool     |    Native Component name        | 
 | ------------- |-------------| 
@@ -339,7 +326,7 @@ Components are reusable elements imported from your team's preferred design tool
 | Figma [[read more](https://support.zeplin.io/figma-integration/exporting-components-from-figma)]     | Components |
 | XD ⚠️ [_coming soon_] | Symbols  |
 
-When the team exports their symbols/components from their design tool into Zeplin, you'll be able to easily identify elements that are components. For any element that is a component, you can see a blue header on that element, in addition to a link to that component in the sidebar (_see image below_).
+When the team export their symbols/components from their design tool into Zeplin, you'll be able to easily identify elements that are components. For any element that is a component, you can see a blue header on that element, in addition to a link to that component in the sidebar (_see image below_).
 
 ![alt text](./img/component.png "Components in Zeplin")
 
@@ -356,7 +343,7 @@ You can quickly add a note by Cmd + Clicking (Ctrl for Windows and Linux users) 
 If you're tagged in a  note, you can resolve that note.
 
 ![alt text](./img/monkey.png "Naming convention for image assets")
->💡Show/hide notes on a design by clicking the 🙈 icon
+>🎩🐰 Show/hide notes on a design by clicking the 🙈 icon
 
 ## Layers
 Layer units are specific to the Zeplin project type (Web, iOS, Android).
@@ -364,7 +351,7 @@ Layer units are specific to the Zeplin project type (Web, iOS, Android).
 |Platform        | Unit  |
 | ------------- |:-------------|
 | iOS      | pt |
-| Android      | dp     |
+| Android      | dp/sp    |
 | Web | px |
 
 ### Measurements 
@@ -378,11 +365,11 @@ By clicking on an element you can see its size. Once clicked you can move your m
 
 ### Assets 
 
->💡 If you cannot download assets for a screen, remind your designers to mark those elements as exportable in their design tool. If they are marked as exported and imported into Zeplin, you'll then be able to download them! 
+>💡 If you cannot download assets for a screen, remind your designers to mark those elements as exportable in their design tool. If they are marked as Exportable and exported into Zeplin, you'll be able to download them! 
 
-Like layer data, Zeplin tailors assets to the platform your project is set to. The designers on your team will need to mark the assets you need to download from Zeplin as "exportable". 
+Like specs, Zeplin tailors assets to the platform your project is set to. The designers on your team will need to mark the assets you need to download from Zeplin as "exportable". 
 
-If an image is marked as exportable, Zeplin automatically provides the resources in  **1x 2x 3x densities**. ✨
+Zeplin automatically provides/generates the resources tailored to platform needs, i.e. 1x, 2x and 3x for iOS... ✨
 
 |Platform        | Unit  |
 | ------------- |:-------------|
@@ -390,23 +377,22 @@ If an image is marked as exportable, Zeplin automatically provides the resources
 | Android      | PNG / SVG      |
 | Web | PNG / SVG |
 
->💡[Download ALL assets](https://support.zeplin.io/zeplin-101/downloading-all-available-assets-in-a-screen) for any screen by clicking on the "knife" icon
+>🎩🐰[Download ALL assets](https://support.zeplin.io/zeplin-101/downloading-all-available-assets-in-a-screen) for any screen by clicking on the "knife" icon
 
->💡 If you want to use your own optimization tools, SVGO optimization is configurable (on / off) in Zeplin.
-
-![alt text](./img/namingConvention.png "Naming convention for image assets")
-
->💡 Asset naming convention is configurable (camelCase / snake_case / kebab-case).
+>🎩🐰 If you want to use your own optimization tools, SVGO optimization is configurable (on / off) in Zeplin.
 
 ![alt text](./img/namingConvention.png "Naming convention for image assets")
 
->💡You can rename assets, keep in mind that this will apply only locally. 
+>🎩🐰 Asset naming convention is configurable (camelCase / snake_case / kebab-case).
+
+![alt text](./img/namingConvention.png "Naming convention for image assets")
+
+>🎩🐰 You can rename assets, keep in mind that this will apply only locally. 
 
 ### **iOS Development** ([read more](https://support.zeplin.io/zeplin-101/developing-ios-projects-using-zeplin))
 
 - PNG, PDF image types available
 - Asset Catalog Colors ([read more](https://blog.zeplin.io/asset-catalog-colors-on-xcode-9-c4fdccc0381a))
-- Export project color palette (from the project Styleguide) directly to your asset catalog (Xcode 9 and up). For more details, check out the blog post for this feature.
 - Measurements are in points.
 - UIColor/UIFont extensions on Swift or Objective-C, from the project Styleguide.
 - When you first export assets into .xcassets  directory of your project, images are added to the appropriate directories and assets are added to your project. Next time you export another asset, you can simply select the project.
@@ -453,7 +439,7 @@ All Zeplin extensions are JavaScript modules that generate code snippets from va
 Zeplin extension manager ([**zem**](https://github.com/zeplin/zem)), is a command line tool that lets you quickly create and test extensions.
 
 Follow the [zem tutorial](https://github.com/zeplin/zeplin-extension-documentation/blob/master/tutorial.md#adding-a-local-extension) to start building your own Zeplin custom extension.
->💡If you'd like to build a new Zeplin Extension, reach out to glenn@zeplin.io
+>🎩🐰 If you'd like to build a new Zeplin Extension, reach out to glenn@zeplin.io
 
 ![alt text](./img/codeSnippet.png "Code Snippet in Zeplin")
 
@@ -461,13 +447,13 @@ Follow the [zem tutorial](https://github.com/zeplin/zeplin-extension-documentati
 
 When you export your artboards with links to Zeplin, these links will be clickable in Zeplin as well, with no additional setup. Selecting a layer below a hotspot will inform the user and present a button on the right panel to quickly jump to the destination.
 
->💡 When you hold down the Shift key all the hotspots/prototyping will be revealed
+>🎩🐰 When you hold down the Shift key all the hotspots/prototyping will be revealed
 
 ![alt text](./img/flows.gif "Flows in Zeplin")
 
 ## Versions
 
->💡For more best practices check this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
+>🎩🐰 For more best practices check this [article](https://blog.zeplin.io/versions-in-zeplin-a8465ee441c2).
 
 ## Integrations 
 
